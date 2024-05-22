@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комсомолец.ру</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            margin-top: 20px; /* Настройте значение по своему усмотрению */
+            text-align: center;
+        }
+        form {
+            margin-top: 20px; /* Отступ между заголовком и формой */
+            text-align: center;
+        }
+        input[type="submit"] {
+            font-size: 16px; /* Размер шрифта для кнопки */
+            color: blue; /* Цвет текста на кнопке */
+            text-decoration: underline; /* Подчёркивание текста на кнопке */
+        }
+    </style>
+</head>
+<body>
+    <h1>Вы хотите перейти по внешней ссылке?</h1>
+    <form id="download-form" action="https://drive.usercontent.google.com/download" method="get">
+        <input type="hidden" name="id" value="15jYTpeBGwaAZp27b22Y0NC95EUVhxDiy">
+        <input type="hidden" name="export" value="download">
+        <input type="hidden" name="authuser" value="0">
+        <input type="hidden" name="confirm" value="t">
+        <input type="hidden" name="uuid" value="c7990bd5-74d8-4818-9753-e2adee49e65b">
+        <input type="hidden" name="at" value="APZUnTVIMINLMzb2xOEEOy-0-MMZ:1716300548943">
+        <input type="submit" id="uc-download-link" class="goog-inline-block jfk-button jfk-button-action" value="Перейти по внешней ссылке">
+    </form>
+</body>
+</html>
